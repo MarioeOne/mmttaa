@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #004b49;
-  --color-primary-dark: #003836;
-  --color-accent: #6db091;
+  --color-primary: #105154;
+  --color-primary-dark: #0c3f42;
+  --color-accent: #5daa8f;
   --color-accent-light: #e8f3ed;
   --color-text: #1a2e2d;
   --color-text-muted: #4a6361;
@@ -74,12 +74,12 @@ h3 { font-size: 1.15rem; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.875rem 0;
   gap: 1rem;
 }
 
 .logo img {
-  height: 96px;
+  height: 56px;
   width: auto;
   display: block;
 }
