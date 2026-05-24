@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacta con Montelia para información sobre terrenos en venta.">
+  <title>Contacto | Montelia</title>
+  <link rel="icon" href="images/mtn-fav.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/Montelia-logo.svg" alt="Montelia" width="160">
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="propiedades.html" class="nav-link">Propiedades</a>
+        <a href="contacto.html" class="nav-link active">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Contacto</h1>
+        <p>Escríbenos para recibir información, precios o agendar una visita a nuestros terrenos.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-info">
+          <h2>Montelia</h2>
+          <p>Estamos listos para ayudarte a encontrar el terreno que buscas.</p>
+
+          <div class="contact-item">
+            <h3>Teléfono</h3>
+            <p><a href="tel:+525512345678">+52 55 1234 5678</a></p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Correo</h3>
+            <p><a href="mailto:contacto@montelia.com">contacto@montelia.com</a></p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Horario</h3>
+            <p>Lunes a sábado, 9:00 – 18:00</p>
+          </div>
+
+          <div class="contact-item">
+            <h3>WhatsApp</h3>
+            <p>
+              <a href="https://wa.me/525512345678" target="_blank" rel="noopener noreferrer">
+                Enviar mensaje
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <h2>Envíanos un mensaje</h2>
+          <p class="form-note">Este formulario es de demostración. Actualiza los datos de contacto antes de publicar.</p>
+
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono">
+
+          <label for="interes">Terreno de interés</label>
+          <select id="interes" name="interes">
+            <option value="">Selecciona una opción</option>
+            <option value="norte">Lote Residencial Norte</option>
+            <option value="centro">Terreno Comercial Centro</option>
+            <option value="sur">Parcela Desarrollo Sur</option>
+            <option value="otro">Otro / Consulta general</option>
+          </select>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-logo">
+        <img src="images/Montelia-logo.svg" alt="Montelia" width="140">
+      </a>
+      <p class="footer-copy">&copy; 2026 Montelia. Venta de terrenos.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
