@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Montelia. Encuentra el lote ideal para tu proyecto.">
+  <meta name="description" content="Montelia. Propiedades con financiamiento directo en Baja California. Asesoría personalizada en cada etapa.">
   <title>Montelia</title>
   <link rel="icon" href="images/mtn-fav.svg?v=2" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
@@ -30,39 +30,56 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-bg" aria-hidden="true">
+  <main class="home">
+    <section class="hero home-hero">
+      <div class="hero-bg home-hero__bg" aria-hidden="true">
         <img src="images/fondo-index.png" alt="">
       </div>
-      <div class="hero-overlay" aria-hidden="true"></div>
-      <div class="container hero-content">
-      <!---<p class="hero-tag">Inmobiliaria</p>-->
-        <h1>Tu terreno ideal con Montelia</h1>
-        <p class="hero-text">
-          Terrenos seleccionados para construir, invertir o desarrollar tu proyecto.
-          Asesoría personalizada en cada etapa.
-        </p>
-        <div class="hero-actions">
-          <a href="propiedades.html" class="btn btn-primary">Ver propiedades</a>
-          <a href="contacto.html" class="btn btn-outline">Contactar</a>
+      <div class="hero-overlay home-hero__overlay" aria-hidden="true"></div>
+      <div class="home-hero__blobs" aria-hidden="true">
+        <span class="home-hero__blob home-hero__blob--1"></span>
+        <span class="home-hero__blob home-hero__blob--2"></span>
+      </div>
+      <div class="container home-hero__inner">
+        <div class="hero-content home-hero__content">
+          <p class="hero-tag home-hero__item" style="--i: 0">Propiedades · Baja California</p>
+          <h1 class="home-hero__item" style="--i: 1">Tu propiedad ideal con Montelia</h1>
+          <p class="hero-text home-hero__item" style="--i: 2">
+            Propiedades seleccionadas para construir, invertir o desarrollar tu proyecto.
+            Asesoría personalizada en cada etapa.
+          </p>
+          <ul class="home-hero__perks">
+            <li class="home-hero__item" style="--i: 3">Financiamiento directo</li>
+            <li class="home-hero__item" style="--i: 4">Sin enganche</li>
+            <li class="home-hero__item" style="--i: 5">Visitas a propiedades</li>
+          </ul>
+          <div class="hero-actions home-hero__item" style="--i: 6">
+            <a href="propiedades.html" class="btn btn-primary">Ver propiedades</a>
+            <a href="contacto.html" class="btn btn-outline">Contactar</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section home-section">
       <div class="container">
-        <h2>¿Por qué Montelia?</h2>
-        <div class="cards">
-          <article class="card">
+        <header class="section-head reveal">
+          <p class="section-head__tag">Montelia</p>
+          <h2>¿Por qué elegirnos?</h2>
+        </header>
+        <div class="cards home-cards">
+          <article class="card home-card reveal" style="--delay: 1">
+            <span class="home-card__num" aria-hidden="true">01</span>
             <h3>Ubicaciones estratégicas</h3>
-            <p>Terrenos en zonas con buen acceso, servicios cercanos y potencial de plusvalía.</p>
+            <p>Propiedades en zonas con buen acceso, servicios cercanos y potencial de plusvalía.</p>
           </article>
-          <article class="card">
+          <article class="card home-card reveal" style="--delay: 2">
+            <span class="home-card__num" aria-hidden="true">02</span>
             <h3>Documentación clara</h3>
             <p>Te acompañamos con información legal y técnica para que compres con confianza.</p>
           </article>
-          <article class="card">
+          <article class="card home-card reveal" style="--delay: 3">
+            <span class="home-card__num" aria-hidden="true">03</span>
             <h3>Atención personalizada</h3>
             <p>Agenda visitas, resuelve dudas y recibe orientación según tu presupuesto y objetivo.</p>
           </article>
@@ -70,29 +87,30 @@
       </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container split">
-        <div>
-          <h2>Inversión en tierra</h2>
+    <section class="section section-alt home-spotlight">
+      <div class="container split home-spotlight__grid">
+        <div class="home-spotlight__copy reveal">
+          <p class="section-head__tag">Inversión</p>
+          <h2>Inversión en propiedades</h2>
           <p>
-            En Montelia creemos que un buen terreno es el primer paso hacia un patrimonio sólido.
-            Trabajamos con lotes residenciales, comerciales y de desarrollo, adaptados a distintos perfiles de comprador.
+            En Montelia creemos que una buena propiedad es el primer paso hacia un patrimonio sólido.
+            Trabajamos con opciones residenciales, comerciales y de desarrollo, adaptadas a distintos perfiles de comprador.
           </p>
-          <a href="propiedades.html" class="link-arrow">Explorar terrenos disponibles →</a>
+          <a href="propiedades.html" class="home-link">Explorar propiedades disponibles</a>
         </div>
-        <div class="stats">
-          <div class="stat">
-            <strong>+15</strong>
-            <span>Terrenos activos</span>
-          </div>
-          <div class="stat">
+        <div class="home-stats">
+          <article class="home-stat reveal" style="--delay: 1" data-count="8" data-suffix=" años">
+            <strong>8 años</strong>
+            <span>Financiamiento directo</span>
+          </article>
+          <article class="home-stat reveal" style="--delay: 2" data-count="100" data-suffix="%">
             <strong>100%</strong>
             <span>Asesoría incluida</span>
-          </div>
-          <div class="stat">
+          </article>
+          <article class="home-stat reveal" style="--delay: 3" data-count="24" data-suffix="h">
             <strong>24h</strong>
             <span>Respuesta a consultas</span>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -103,7 +121,7 @@
       <a href="index.html" class="footer-logo">
         <img src="images/Montelia-logo.svg" alt="Montelia">
       </a>
-      <p class="footer-copy">&copy; 2026 </p>
+      <p class="footer-copy">&copy; Montelia 2026.</p>
     </div>
   </footer>
 
