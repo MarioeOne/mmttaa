@@ -1042,6 +1042,34 @@ h3 { font-size: 1.15rem; }
   margin-bottom: 0.75rem;
 }
 
+.property-price {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 3vw, 1.6rem);
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.property-lead {
+  margin: 0 0 1.15rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-text-muted);
+}
+
+.property-contact-note {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.property-contact-note a {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 .property-details {
   list-style: none;
   padding: 0;
